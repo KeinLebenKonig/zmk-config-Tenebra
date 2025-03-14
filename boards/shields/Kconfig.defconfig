@@ -1,0 +1,23 @@
+if SHIELD_TENEBRA_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Tenebra"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_TENEBRA_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Tenebra Right"
+
+endif
+
+if SHIELD_TENEBRA_LEFT || SHIELD_TENEBRA_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif
