@@ -1,0 +1,12 @@
+file_format: "1"
+id: tenebra
+name: Tenebra
+type: shield
+url: https://github.com/KeinLebenKonig/zmk-config-Tenebra
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - tenebra_left
+  - tenebra_right

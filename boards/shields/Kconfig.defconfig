@@ -8,13 +8,6 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 
 endif
 
-if SHIELD_TENEBRA_RIGHT
-
-config ZMK_KEYBOARD_NAME
-	default "Tenebra Right"
-
-endif
-
 if SHIELD_TENEBRA_LEFT || SHIELD_TENEBRA_RIGHT
 
 config ZMK_SPLIT
