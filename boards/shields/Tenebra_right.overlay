@@ -1,4 +1,4 @@
-#include "architeuthis_dux.dtsi"
+#include "Tenebra.dtsi"
 
 &default_transform {
 	col-offset = <18>;
