@@ -8,5 +8,5 @@ exposes: [i2c_oled]
 features:
   - keys
 siblings:
-  - tenebra_left
-  - tenebra_right
+  - Tenebra_left
+  - Tenebra_right
