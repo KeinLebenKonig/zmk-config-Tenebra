@@ -77,6 +77,15 @@
             layers = <5>;
             bindings = <&kp KP_N5>;
         };
+        combo_test {
+            key-positions = <1 2>;
+            bindings = <&kp SPACE>;
+        };
+        combo_test_2 {
+            key-positions = <0 1>;
+            layers = <0>;
+            bindings = <&kp SPACE>;
+        };
     };
 
     keymap {
