@@ -26,22 +26,22 @@
         combos {
         compatible = "zmk,combos";
         esc_combo {
-            key-positions = <15 16>;
+            key-positions = <8 9>;
             layers = <0>;
             bindings = <&kp ESC>;
         };
         colon_combo {
-            key-positions = <19 20>;
+            key-positions = <27 26>;
             layers = <0>;
             bindings = <&kp COLN>;
         };
         tab_combo {
-            key-positions = <42 43>;
+            key-positions = <34 33>;
             layers = <0>;
             bindings = <&kp TAB>;
         };
         del_combo {
-            key-positions = <40 41>;
+            key-positions = <15 16>;
             layers = <0>;
             bindings = <&kp DEL>;
         };
