@@ -4,10 +4,8 @@ name: Tenebra
 type: shield
 url: https://github.com/KeinLebenKonig/zmk-config-Tenebra
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
-  - display
 siblings:
   - Tenebra_left
   - Tenebra_right
