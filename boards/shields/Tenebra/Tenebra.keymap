@@ -33,7 +33,7 @@
         colon_combo {
             key-positions = <27 26>;
             layers = <0>;
-            bindings = <&kp COLN>;
+            bindings = <&kp COLON>;
         };
         tab_combo {
             key-positions = <34 33>;
