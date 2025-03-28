@@ -69,22 +69,22 @@
             bindings = <&tog 5>;
         };
         hd_primary {
-            key-positions = <3 31>;
+            key-positions = <3 32>;
             layers = <5>;
             bindings = <&kp N1>;
         };
         hd_secondary {
-            key-positions = <13 31>;
+            key-positions = <13 32>;
             layers = <5>;
             bindings = <&kp N2>;
         };
         hd_support {
-            key-positions = <23 31>;
+            key-positions = <23 32>;
             layers = <5>;
             bindings = <&kp N3>;
         };
         hd_drop {
-            key-positions = <4 31>;
+            key-positions = <4 32>;
             layers = <5>;
             bindings = <&kp N5>;
         };
@@ -195,7 +195,7 @@
                &kp TAB          &kp Q           &kp W           &kp E           &kp R               &none           &none           &none           &none           &none
         //├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //│     MELEE     │     LEFT      │     DOWN      │     RIGHT     │    GRENADE    │   │               │               │               │               │               │
-                &kp F          &kp A           &kp S            &kp D           &kp G               &none           &none           &none           &none           &none
+                &kp G          &kp A           &kp S            &kp D           &kp F               &none           &none           &none           &none           &none
         //├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //│      DIVE     │     PRONE     │    CROUCH     │     STIM      │     EMOTE     │   │               │               │               │               │               │
                &kp LALT         &kp Z           &kp C           &kp V           &kp B               &none           &none           &none           &none           &none
