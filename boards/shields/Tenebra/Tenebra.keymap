@@ -83,11 +83,16 @@
             layers = <5>;
             bindings = <&kp N3>;
         };
-        hd_drop {
+        hd_backpack {
             key-positions = <4 32>;
             layers = <5>;
             bindings = <&kp N5>;
         };
+        hd_drop {
+            key-positions = <14 32>;
+            layers = <5>;
+            bindings = <&kp X>;
+        }
     };
 
     keymap {
@@ -195,7 +200,7 @@
                &kp TAB          &kp Q           &kp W           &kp E           &kp R               &none           &none           &none           &none           &none
         //├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //│     MELEE     │     LEFT      │     DOWN      │     RIGHT     │    GRENADE    │   │               │               │               │               │               │
-                &kp G          &kp A           &kp S            &kp D           &kp F               &none           &none           &none           &none           &none
+                &kp F          &kp A           &kp S            &kp D           &kp G               &none           &none           &none           &none           &none
         //├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //│      DIVE     │     PRONE     │    CROUCH     │     STIM      │     EMOTE     │   │               │               │               │               │               │
                &kp LALT         &kp Z           &kp C           &kp V           &kp B               &none           &none           &none           &none           &none
