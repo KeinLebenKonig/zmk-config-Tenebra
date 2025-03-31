@@ -92,7 +92,7 @@
             key-positions = <14 32>;
             layers = <5>;
             bindings = <&kp X>;
-        }
+        };
     };
 
     keymap {
