@@ -36,6 +36,10 @@
 //                                ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
         combos {
         compatible = "zmk,combos";
+        always_home_combo{
+            key-positions = <0 9 20 29>
+            bindings = <&tog 0>
+        };
         esc_combo {
             key-positions = <13 14>;
             layers = <0>;
@@ -92,6 +96,10 @@
             key-positions = <10 32>;
             layers = <5>;
             bindings = <&kp X>;
+        };
+        fn_bt_combo {
+            key-positions = <7 8 9>;
+            bindings = <&tog 6>;
         };
     };
 
@@ -217,7 +225,7 @@
         // Needs an entrypoint, needs acutally defined bluetooth settings
         //╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
         //│               │      F7       │      F8       │      F9       │      F10      │   │     PGUP      │   CTRL+LEFT   │     HOME      │      END      │   CTRL+RIGHT  │
-                &none          &kp F7          &kp F8          &kp F9          &kp F10          &none            &none              &none            &none      &none
+                &none          &kp F7          &kp F8          &kp F9          &kp F10             &bt BT_NXT  &bt BT_SEL 0        &bt BT_SEL 1   &bt BT_CLR   &bt BT_PRV 
         //├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //│               │      F4       │      F5       │      F6       │      F11      │   │    CTRL+UP    │      LEFT     │     DOWN      │      UP       │     RIGHT     │
                 &none          &kp F4          &kp F5          &kp F6          &kp F11         &none            &none              &none            &none      &none
