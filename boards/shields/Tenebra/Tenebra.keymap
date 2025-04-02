@@ -74,12 +74,12 @@
             bindings = <&kp N1>;
         };
         hd_secondary {
-            key-positions = <13 32>;
+            key-positions = <1 32>;
             layers = <5>;
             bindings = <&kp N2>;
         };
         hd_support {
-            key-positions = <23 32>;
+            key-positions = <0 32>;
             layers = <5>;
             bindings = <&kp N3>;
         };
@@ -89,7 +89,7 @@
             bindings = <&kp N5>;
         };
         hd_drop {
-            key-positions = <14 32>;
+            key-positions = <10 32>;
             layers = <5>;
             bindings = <&kp X>;
         };
@@ -148,7 +148,7 @@
         //│               │       1       │       2       │       3       │               │   │      PGDN     │    A+G+LEFT   │    A+G+DOWN   │     A+G+UP    │    A+G+RIGHT  │
                &none          &kp N1           &kp N2          &kp N3           &none             &kp PG_DN   &kp LA(LG(LEFT)) &kp LA(LG(DOWN)) &kp LA(LG(UP)) &kp LA(LG(RIGHT))
         //╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────╯
-                                                &trans         &none            &none              &none            &none           &trans
+                                               &trans       &kp BACKSPACE    &kp DELETE            &none            &none           &trans
         //                                ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
             >;
         };
