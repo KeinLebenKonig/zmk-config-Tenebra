@@ -95,7 +95,7 @@
         hd_drop {
             key-positions = <10 32>;
             layers = <5>;
-            bindings = <&kp X>;
+            bindings = <&kp N4>;
         };
         fn_bt_combo {
             key-positions = <7 8 9>;
