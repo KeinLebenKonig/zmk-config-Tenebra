@@ -93,7 +93,7 @@
             bindings = <&kp N5>;
         };
         hd_drop {
-            key-positions = <10 32>;
+            key-positions = <2 32>;
             layers = <5>;
             bindings = <&kp N4>;
         };
