@@ -38,7 +38,7 @@
         compatible = "zmk,combos";
         always_home_combo {
             key-positions = <0 9 20 29>;
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
         };
         esc_combo {
             key-positions = <13 14>;
