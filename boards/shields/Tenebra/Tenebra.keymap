@@ -21,6 +21,12 @@
                 <&kp>,
                 <&kp>;
         };
+
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            tapping-term-ms = <200>;
+            bindings = <&kp Q>, <&kp X>;
+        };
     };
 
 
@@ -204,8 +210,8 @@
 //	    display-name = "Helldivers";
             bindings = <
         //╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-        //│      MAP      │     PING      │      UP       │    INTERACT   │    RELOAD     │   │               │               │               │               │               │
-               &kp TAB          &kp Q           &kp W           &kp E           &kp R               &none           &none           &none           &none           &none
+        //│      MAP      │   PING/DROP   │      UP       │    INTERACT   │    RELOAD     │   │               │               │               │               │               │
+               &kp TAB          &td0           &kp W           &kp E           &kp R               &none           &none           &none           &none           &none
         //├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //│     MELEE     │     LEFT      │     DOWN      │     RIGHT     │    GRENADE    │   │               │               │               │               │               │
                 &kp F          &kp A           &kp S            &kp D           &kp G               &none           &none           &none           &none           &none
