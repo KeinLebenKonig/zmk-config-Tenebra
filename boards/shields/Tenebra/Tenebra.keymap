@@ -109,7 +109,7 @@
             bindings = <&tog 6>;
         };
         sqt_combo {
-            key-positions " <5 6>;
+            key-positions = <5 6>;
             layers = <0>;
             bindings = <&kp SQT>;
         };
